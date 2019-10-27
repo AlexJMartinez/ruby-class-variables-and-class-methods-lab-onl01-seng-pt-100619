@@ -43,7 +43,7 @@ class Song
       genre_totals[genre] = 1
       if genre_totals[genre]
         genre_totals[genre] += 1
-      else
+      elsif
         genre_totals[genre] = 1
 
       end
