@@ -33,6 +33,7 @@ class Song
   end
 
   def self.all?
+    @@self
   end
 
   def self.genre_count
