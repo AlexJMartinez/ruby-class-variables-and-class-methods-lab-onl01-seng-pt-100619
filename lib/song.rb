@@ -44,6 +44,8 @@ class Song
       if genre_totals[genre]
         genre_totals[genre] += 1
 
+      end
+
 
 
       #binding.pry
