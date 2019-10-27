@@ -59,6 +59,6 @@ class Song
         artist_totals[artist] = 1
       end
     end
-
+artist_totals
   end
 end
