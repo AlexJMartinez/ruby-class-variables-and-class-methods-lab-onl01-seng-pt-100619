@@ -33,10 +33,13 @@ class Song
 
   def self.genre_count
     @@genre_count.each do |genre, count|
+
+
+    binding.pry
     end
 
 
-binding.pry
+
 
   end
 
