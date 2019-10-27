@@ -42,7 +42,6 @@ class Song
     @@all.each do |genre|
 
       
-
       #binding.pry
 
     end
