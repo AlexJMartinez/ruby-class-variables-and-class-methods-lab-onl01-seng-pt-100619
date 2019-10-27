@@ -17,6 +17,7 @@ class Song
     @@artists << artist
     @@genres << genre
     @@count += 1
+    @@all += 1
 
   end
 
