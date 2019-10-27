@@ -38,13 +38,14 @@ class Song
   end
 
   def self.genre_count
-    binding.pry
-    @@genres.each do |genre|
+
+    @@all.each do |genre|
       if genre == "rap"
         genre.count
       elsif genre == "pop"
         genre.count
       end
+      binding.pry
 
     end
   end
