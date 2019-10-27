@@ -38,7 +38,7 @@ class Song
       elsif genre == "pop"
         genre.count
 
-      genre.count
+      
 #binding.pry
     end
 
