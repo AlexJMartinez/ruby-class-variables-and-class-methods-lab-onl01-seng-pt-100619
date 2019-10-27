@@ -44,7 +44,6 @@ class Song
         genre_totals[genre] += 1
       elsif
         genre_totals[genre] = 1
-
       end
 
 
