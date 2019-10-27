@@ -58,6 +58,7 @@ class Song
       else
         artist_totals[artist] = 1
       end
+    end
 
   end
 end
