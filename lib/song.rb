@@ -20,7 +20,7 @@ class Song
   end
 
   def self.count
-    @@genre_count[:genre].uniq
+    @@genre_count[:genre].to_h
   end
 
   def self.genres
