@@ -41,6 +41,7 @@ class Song
     genre_totals = {}
     @@genres.each do |genre|
       genre_totals[genre] = 1
+      if 
 
 
       #binding.pry
