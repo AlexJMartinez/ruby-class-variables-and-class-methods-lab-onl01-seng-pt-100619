@@ -42,7 +42,7 @@ class Song
     @@genres.each do |genre|
       if genre_totals[genre]
         genre_totals[genre] += 1
-      elsif
+      else
         genre_totals[genre] = 1
       end
 
